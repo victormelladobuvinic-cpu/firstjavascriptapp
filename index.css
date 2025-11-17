@@ -1,0 +1,56 @@
+body {
+    background-image: url("concrete.jpg");
+    background-size: cover;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    text-align: center;
+    color: beige;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #B2222250;
+}
+
+#increment-btn:hover {
+    background: #B2222295;
+}
+
+#save-btn {
+    background: #00000050;
+ }
+ 
+ #save-btn:hover {
+    background: #00000090;
+ }
+
+.frame {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px 5px;
+    background-color: #00000050;
+    
+    border-radius: 10px;
+    
+}
